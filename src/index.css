@@ -1,13 +1,198 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@700&family=Fasthand&family=Fragment+Mono&family=Great+Vibes&family=Lobster&family=Pacifico&family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container .inner{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.container .inner h2{
+    position: absolute;
+    top: 120%;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1.2);
+}
+
+.container .inner .title p{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1);
+}
+
+.container .inner .title h3{
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1);
+}
+
+.container .inner .date{
+    position: absolute;
+    text-align: center;
+    top: 170%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1);
+}
+
+.container .inner .locations{
+    position: absolute;
+    top: 185%;
+    font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.container .inner .locations a{
+    color: white;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1.5);
+}
+
+/* ----------------------------------- */
+
+
+@media screen and (max-width: 450px) {
+
+  .container .inner h2 {
+      font-size: 3.5rem;
+      position: absolute;
+      top: 25%;
+  }
+  
+  .container .inner .title p {
+      font-size: 1.1rem;
+      position: absolute;
+      top: 37%;
+  }
+  
+  .container .inner .title h3 {
+      font-size: 1.2rem;
+      position: absolute;
+      top: 44%;
+  }
+  
+  .container .inner .date {
+      font-size: 1.1rem;
+      position: absolute;
+      top: 47%;
+  }
+  
+  .container .inner .locations {
+      font-size: 1.2rem;
+      position: absolute;
+      top: 52%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container .inner h2 {
+      font-size: 3rem;
+  }
+  
+  .container .inner .title p {
+      font-size: 1rem;
+  }
+  
+  .container .inner .title h3 {
+      font-size: 1rem;
+  }
+  
+  .container .inner .date {
+      font-size: 1rem;
+  }
+  
+  .container .inner .locations {
+      font-size: 1rem;
+      margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container .inner h2 {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 23%;
+  }
+  
+  .container .inner .title p {
+      font-size: .8rem;
+      position: absolute;
+      top: 33%;
+  }
+  
+  .container .inner .title h3 {
+      font-size: 0.9rem;
+      position: absolute;
+      top: 40%;
+  }
+  
+  .container .inner .date {
+      font-size: 1.1rem;
+      position: absolute;
+      top: 43%;
+  }
+  
+  .container .inner .locations {
+      font-size: 0.9rem;
+      position: absolute;
+      top: 48%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container .inner h2 {
+      font-size: 2rem;
+  }
+  
+  .container .inner .title p {
+      font-size: 0.9rem;
+  }
+  
+  .container .inner .title h3 {
+      font-size: 0.8rem;
+  }
+  
+  .container .inner .date {
+      font-size: 1rem;
+  }
+  
+  .container .inner .locations {
+      font-size: 0.8rem;
+  }
 }
