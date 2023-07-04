@@ -86,7 +86,6 @@
 
 /* ----------------------------------- */
 
-
 @media screen and (max-width: 450px) {
 
   .container .inner h2 {
@@ -98,25 +97,58 @@
   .container .inner .title p {
       font-size: 1.1rem;
       position: absolute;
-      top: 42%; 
+      top: 45%; 
   }
   
   .container .inner .title h3 {
       font-size: 1.2rem;
       position: absolute;
-      top: 52%; 
+      top: 54%; 
   }
   
   .container .inner .date {
       font-size: 1.1rem;
       position: absolute;
-      top: 57%; 
+      top: 59%; 
   }
   
   .container .inner .locations {
       font-size: 1.2rem;
       position: absolute;
-      top: 62%; 
+      top: 64%; 
+  }
+}
+
+@media screen and (max-width: 412px) {
+
+  .container .inner h2 {
+      font-size: 3.5rem;
+      position: absolute;
+      top: 25%;
+  }
+  
+  .container .inner .title p {
+      font-size: 1.1rem;
+      position: absolute;
+      top: 37%;
+  }
+  
+  .container .inner .title h3 {
+      font-size: 1.2rem;
+      position: absolute;
+      top: 44%;
+  }
+  
+  .container .inner .date {
+      font-size: 1.1rem;
+      position: absolute;
+      top: 47%;
+  }
+  
+  .container .inner .locations {
+      font-size: 1.2rem;
+      position: absolute;
+      top: 52%;
   }
 }
 
