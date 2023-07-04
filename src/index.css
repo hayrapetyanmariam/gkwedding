@@ -123,23 +123,27 @@
 @media screen and (max-width: 400px) {
   .container .inner h2 {
       font-size: 3rem;
+      margin-top: 1rem;
   }
   
   .container .inner .title p {
       font-size: 1rem;
+      margin-top: 1.5rem;
   }
   
   .container .inner .title h3 {
       font-size: 1rem;
+      margin-top: 2rem;
   }
   
   .container .inner .date {
       font-size: 1rem;
+      margin-top: 2rem;
   }
   
   .container .inner .locations {
       font-size: 1rem;
-      margin-top: 1rem;
+      margin-top: 2rem;
   }
 }
 
@@ -147,31 +151,31 @@
   .container .inner h2 {
       font-size: 2.5rem;
       position: absolute;
-      top: 23%;
+      top: 20%;
   }
   
   .container .inner .title p {
       font-size: .8rem;
       position: absolute;
-      top: 33%;
+      top: 29%;
   }
   
   .container .inner .title h3 {
       font-size: 0.9rem;
       position: absolute;
-      top: 40%;
+      top: 35%;
   }
   
   .container .inner .date {
       font-size: 1.1rem;
       position: absolute;
-      top: 43%;
+      top: 38%;
   }
   
   .container .inner .locations {
       font-size: 0.9rem;
       position: absolute;
-      top: 48%;
+      top: 45%;
   }
 }
 
