@@ -92,58 +92,58 @@
   .container .inner h2 {
       font-size: 3.5rem;
       position: absolute;
-      top: 25%;
+      top: 30%; 
   }
   
   .container .inner .title p {
       font-size: 1.1rem;
       position: absolute;
-      top: 37%;
+      top: 42%; 
   }
   
   .container .inner .title h3 {
       font-size: 1.2rem;
       position: absolute;
-      top: 44%;
+      top: 52%; 
   }
   
   .container .inner .date {
       font-size: 1.1rem;
       position: absolute;
-      top: 47%;
+      top: 57%; 
   }
   
   .container .inner .locations {
       font-size: 1.2rem;
       position: absolute;
-      top: 52%;
+      top: 62%; 
   }
 }
 
 @media screen and (max-width: 400px) {
   .container .inner h2 {
       font-size: 3rem;
-      margin-top: 4rem;
+      margin-top: 3rem;
   }
   
   .container .inner .title p {
       font-size: 1rem;
-      margin-top: 5.5rem;
+      margin-top: 4.5rem;
   }
   
   .container .inner .title h3 {
       font-size: 1rem;
-      margin-top: 6.5rem;
+      margin-top: 5.5rem;
   }
   
   .container .inner .date {
       font-size: 1rem;
-      margin-top: 7rem;
+      margin-top: 6rem;
   }
   
   .container .inner .locations {
       font-size: 1rem;
-      margin-top: 8rem;
+      margin-top: 7rem;
   }
 }
 
