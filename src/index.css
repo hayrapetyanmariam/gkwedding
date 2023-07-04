@@ -123,27 +123,27 @@
 @media screen and (max-width: 400px) {
   .container .inner h2 {
       font-size: 3rem;
-      margin-top: 2rem;
+      margin-top: 3rem;
   }
   
   .container .inner .title p {
       font-size: 1rem;
-      margin-top: 2.5rem;
+      margin-top: 4rem;
   }
   
   .container .inner .title h3 {
       font-size: 1rem;
-      margin-top: 3rem;
+      margin-top: 5rem;
   }
   
   .container .inner .date {
       font-size: 1rem;
-      margin-top: 3.5rem;
+      margin-top: 6rem;
   }
   
   .container .inner .locations {
       font-size: 1rem;
-      margin-top: 4rem;
+      margin-top: 7rem;
   }
 }
 
